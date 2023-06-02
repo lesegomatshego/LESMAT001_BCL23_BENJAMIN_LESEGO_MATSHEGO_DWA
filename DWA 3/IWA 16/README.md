@@ -1,7 +1,10 @@
 <!-- omit in toc -->
-# ✅ TodoApp
+# ✅ Athelets data
 
-Introducing our new todo app that embodies simplicity and user-friendliness at its core. Designed with a minimalist approach, this app brings you the essentials without overwhelming you with unnecessary features. Our focus is on delivering a streamlined experience, allowing you to effortlessly manage your tasks and stay organized. With just the bare bones of functionality, you can easily create tasks, and mark tasks as complete. Additionally, our app offers basic features such as reminders, , and priority levels, ensuring that you have all the essential tools to keep your tasks in check. Embracing simplicity and usability, our todo app provides an intuitive interface that will help you stay on top of your daily responsibilities without any unnecessary complexity.
+You have been handed a data structure that contains information about two athletes. All information is stored under the variable data. However the variable contains additional information returned from the server, so you will need to traverse into the structure to retrieve information from an embedded property also called data.
+The nested data property contains an object of two individuals, each with a unique ID that is used as their key in the object. You are to ensure that the following is displayed for each individual on the page (matching each individual with their specific section element).
+
+ 
 
 - [features](#features)
 - [Requirements](#requirements)
@@ -11,9 +14,10 @@ Introducing our new todo app that embodies simplicity and user-friendliness at i
 
 ## features
 
-- 💚  simple and user-friendly
--  🐜 focus on minimal functionality
--  🦾 ability to add, edit and complete tasks
+- 📖Fullname (Firstname and Surname)
+- 🏃 Number of races
+- 📆 Date of most recent race (format: d MMM YYYY)
+- ⏲️ Duration of most recent race (format: hh:mm)
 
 ## Requirements
 
@@ -27,18 +31,17 @@ A browser like [chrome](https://www.google.com/chrome)
 1.clone the repository
 
 ```
-git clonehttps://github.com/lesegomatshego/LESMAT001_BCL23_BENJAMIN_LESEGO_MATSHEGO_DWA
+git clonehttps://github.com/lesegomatshego/LESMAT001_BCL2302_BENJAMIN_LESEGO_MATSHEGO_IWA1
 
 2.Run localhost server
 
 3.open index.html.
 
 ## User Stories
-As a user, I want to view a list of book previews, by title and author, so that I can discover new books to read.
-As a user, I want an image associated with all book previews so that I can recognize a book by the cover even if I forgot the name.
-As a user, I want to have the option of reading a summary of the book so that I can decide whether I want to read it.
-As a user, I want to have the option of seeing the date that a book was published so that I can determine how easy it is to obtain second-hand.
-As a user, I want to find books based on specific text phrases so that I don’t need to remember the entire title of a book.
-As a user, I want to filter books by author so that I can find books to read by authors that I enjoy.
-As a user, I want to filter books by genre so that I can find books to read in genres that I enjoy.
-As a user, I want to toggle between dark and light modes so that I can use the app comfortably at night.
+
+An h2 title that shows the id property of the athlete
+A description list that matches values (<dd>) with keys (<dt>). These key/values should be as follows:
+Full name (firstName and surname) of athlete
+The total recorded amount of races they ran as a number. For example 3 or 5
+The date of the last race they ran should be formatted as d MMM YYYY in accordance with the TR35 standard, For example, 7 Oct 2022.
+The total time it took to complete the last race also formatted with the TR35 standard as hh:mm. For example, 91 minutes will be 01:31
