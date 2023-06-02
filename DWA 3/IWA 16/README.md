@@ -11,7 +11,6 @@ The nested data property contains an object of two individuals, each with a uniq
 - [Getting started](#getting-started)
 - [User Stories](#user-stories)
 
-
 ## features
 
 - 📖Fullname (Firstname and Surname)

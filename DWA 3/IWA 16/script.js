@@ -1,4 +1,4 @@
-//@ts_check
+// @ts_check
 
 const MONTHS = [
     'Jan',
@@ -61,12 +61,12 @@ const MONTHS = [
       },
     },
   };
-  /**  Only edit below this comment
-   * 
+  /**  
+   * Only edit below this comment
     */
   const createHtml = (athlete) => {
-    /**   reassign the variables
-     * 
+    /**  
+     *  reassign the variables
      */
 
     const firstName = data.response.data[athlete].firstName;
