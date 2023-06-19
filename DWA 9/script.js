@@ -1,3 +1,8 @@
+const template = document.createElement("preview");
+
+template.innerHTML =
+
+
 // imported data from data.js
 //@ts check
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js'
@@ -5,7 +10,13 @@ import { books, authors, genres, BOOKS_PER_PAGE } from './data.js'
 let page = 1;
 let matches = books
 //preview function
-const preview = (author, id, image, title) => {
+ class preview extends HTMLElent {
+    author()
+        id()
+         image()
+          title() 
+ }
+ {
     const element = document.createElement('button')
     element.classList = 'preview'
     element.setAttribute('data-preview', id)
