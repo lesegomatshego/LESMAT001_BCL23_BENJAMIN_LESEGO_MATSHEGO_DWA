@@ -6,18 +6,13 @@ import { books, authors, genres, BOOKS_PER_PAGE } from './data.js'
 let page = 1;
 let matches = books
 //preview class function
- class preview extends HTMLElement{
-    author()
-     id()
-      image()
-       title ()
-}
- {
+const preview = (author, id, image, title) => {
     const element = document.createElement('button')
     element.classList = 'preview'
     element.setAttribute('data-preview', id)
      // Set innerHTML for the button element
     element.innerHTML = `
+
         <img
             class="preview__image"
             src="${image}"
