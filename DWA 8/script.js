@@ -1,7 +1,9 @@
 
 // imported data from data.js
 //@ts check
-import { books, authors, genres, BOOKS_PER_PAGE } from './data.js'
+import { books, authors, genres, BOOKS_PER_PAGE } from './data.js';
+import BookPreview from "../DWA 9/index.js";
+
 //declared let variables and assigned them
 let page = 1;
 let matches = books

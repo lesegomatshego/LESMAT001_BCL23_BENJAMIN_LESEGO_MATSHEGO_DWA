@@ -2,6 +2,8 @@
 // imported data from data.js
 //@ts check
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js'
+
+
 //declared let variables and assigned them
 let page = 1;
 let matches = books
@@ -35,7 +37,7 @@ const fragment = document.createDocumentFragment();
 //starting preview for the first 36 books
 for (const { author, id, image, title } of matches.slice(0, BOOKS_PER_PAGE)) {
 // Create button element
-   const previewButton = createBookPreview(author, id, image, title);
+   const previewButton = preview(author, id, image, title);
    fragment.appendChild(previewButton);
 }
 // Append the starting document fragment to the specified element in the HTML document
